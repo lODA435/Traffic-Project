@@ -8,8 +8,8 @@ from datetime import datetime
 app = Flask(__name__)
 
 SAMPLES_CSV = 'samples.csv'
-GOOGLE_KEY = 'AIzaSyC_Ya-R0BRl5WP3RdoyvG0EAiHVInkL1R8'
-TOMTOM_KEY = 'FBf9IxQ5FV25Ck8jprol7trZYDy5X9Su'
+GOOGLE_KEY = 'YOUR_GOOGLE_API_KEY'
+TOMTOM_KEY = 'YOUR_TOMTOM_API_KEY'
 
 if not os.path.isfile(SAMPLES_CSV):
     with open(SAMPLES_CSV, 'w', newline='', encoding='utf-8') as f:
